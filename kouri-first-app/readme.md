@@ -7,6 +7,9 @@ Create a blank maven project
 mvn archetype:generate -DgroupId=com.mycompany.app \
  -DartifactId=kouri-first-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
 ```
+Test the project by running the app created.
+
+<img src="images/test_app.png" width="800">
 
 Add following Maven dependency
 
@@ -72,6 +75,26 @@ public class App
 }
 ```
 
-Start a Local Ganache Servier
+Start a Local Ganache Servier: 
+refer to [Ganache websiite](https://trufflesuite.com/ganache/?utm_source=devportal) for more details.
+<img src="images/ganache_app.png" width="800">
+Run the app, right click
+
+<img src="images/run_app.png" width="300">
+
+Output will show the connection status, client version block number gas price.
+```
+Connecting to Ethereum ...
+Successfuly connected to Ethereum
+Client version: EthereumJS TestRPC/v2.13.1/ethereum-js
+Block number: 0
+Gas price: 20000000000
+
+Process finished with exit code 0
+```
+
+
+
+
 
 
